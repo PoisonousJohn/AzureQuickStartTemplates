@@ -3,8 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmName": {
-            "type": "string",
-            "defaultValue": ""
+            "type": "string"
         },
         "location": {
             "type": "string"
@@ -16,12 +15,10 @@
             "type": "int"
         },
         "adminUsername": {
-            "type": "string",
-            "defaultValue": ""
+            "type": "string"
         },
         "adminPublicKey": {
-            "type": "string",
-            "defaultValue": ""
+            "type": "string"
         },
         "vmImage": {
             "type": "string"
